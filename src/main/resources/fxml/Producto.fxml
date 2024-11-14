@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.eiman.ejo.ProductoApplication?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="fxml.Producto"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox xmlns="http://javafx.com/javafx/20"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.eiman.ejp.ProductoController"
+      alignment="CENTER"
+      spacing="20"
+      style="-fx-padding: 20;">
+    <!-- Titulo -->
+    <Label text="Lista de Productos" style="-fx-font-size: 50; -fx-text-alignment: center;" />
+    <!-- Productos -->
+    <ProductoApplication fx:id="panProducto" />
+    <ProductoApplication fx:id="manzanaProducto" />
+    <ProductoApplication fx:id="lecheProducto" />
+</VBox>
