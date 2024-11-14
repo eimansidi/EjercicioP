@@ -22,6 +22,13 @@ public class ProductoController implements Initializable {
     @FXML
     private Producto lecheProducto;
 
+    /**
+     * Metodo que se ejecuta al iniciar la interfaz. Inicializa los productos con sus
+     * valores predeterminados: nombre, stock e imagen.
+     *
+     * @param url La URL que identifica el recurso FXML.
+     * @param resourceBundle El conjunto de recursos utilizado en el archivo FXML.
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Configurar el producto "Pan"
