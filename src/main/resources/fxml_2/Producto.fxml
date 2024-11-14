@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.eiman.ejo.Producto?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eiman.ejp.ProductoController" alignment="CENTER" spacing="20" style="-fx-padding: 20;">
+    <!-- Titulo -->
+    <Label text="Lista de Productos" style="-fx-font-size: 50; -fx-text-alignment: center;" />
+    <!-- Productos -->
+    <Producto fx:id="panProducto" />
+    <Producto fx:id="manzanaProducto" />
+    <Producto fx:id="lecheProducto" />
+</VBox>
